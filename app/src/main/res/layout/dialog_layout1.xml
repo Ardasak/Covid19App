@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#171717">
+
+    <TextView
+        android:id="@+id/more_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="MORE INFO!"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/dialog_cases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Cases Per One Million: "
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/dialog_deaths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Deaths Per One Million: "
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/dialog_tests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Tests: "
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/dialog_tests1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Tests Per One Million: "
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/dialog_actives"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Active Per One Million: "
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/dialog_recovered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Recovered Per One Million: "
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/dialog_critical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Critical Per One Million: "
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/dialog_affected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Affected Countries: "
+        android:textColor="@color/white" />
+
+
+
+
+</LinearLayout>
