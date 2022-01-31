@@ -80,7 +80,19 @@ public class HomeFragment extends Fragment {
                 EditText editText = dialog.findViewById(R.id.edit_text);
                 ListView listView = dialog.findViewById(R.id.list_view);
 
-                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_list_item_1,countries);
+                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,countries){
+                    @Override
+                    public View getView(int position, View convertView, ViewGroup parent) {
+                        View view =super.getView(position, convertView, parent);
+
+                        TextView textView=(TextView) view.findViewById(android.R.id.text1);
+
+                        /*YOUR CHOICE OF COLOR*/
+                        textView.setTextColor(Color.WHITE);
+
+                        return view;
+                    }
+                };
 
                 listView.setAdapter(arrayAdapter);
                 editText.addTextChangedListener(new TextWatcher() {
